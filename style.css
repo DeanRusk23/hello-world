@@ -1,0 +1,157 @@
+
+* { box-sizing: border-box; }
+
+.wrapper {
+    width: 80%;
+    height: 2500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -5em;
+}
+
+ul {
+    align-content: center; text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 37.5em) {  
+}
+
+@media only screen and (max-width: 64em) {
+}
+
+
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+
+.box1 {float:left;
+    width: inherit;
+    height:100%;
+    background-image:url(20181008_173730.jpg);
+    font-size: 3.25em; font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    margin: 5% 0;
+    line-height: 2.25em;
+    background-repeat: no-repeat;
+    background-size: cover;color:#FCF378 ; text-shadow: .005em .035em #24168E ; }
+
+.container1 {
+    height: auto;
+    width: 100%;
+    margin: 5% 0;
+    align-content: center;  font-family: 'Merriweather', serif; background-color: azure; outline-style: double;text-align: center;background-image: linear-gradient(to top, #70e1f5, #ffd194 );padding: 2%;
+}
+
+.box2 { width: 100%;
+    height:auto;
+    background-image:url(images.jpg);margin: 5% 0;
+    font-size: 3.25em; font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    margin-bottom: 5%;
+    line-height: 2.25em;
+    background-repeat: no-repeat;
+    background-size: cover;color:#FCF378 ; text-shadow: .005em .035em #24168E ; border-color: 2em white; margin-top: 5%; 
+    
+}
+
+.box3 { width: 100%;
+    height:auto;
+    background-image:url(download.jpg);
+    font-size: 3.25em; font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin:0;
+    line-height: 2.25em;
+    background-repeat: no-repeat;
+    background-size: cover;color:#FCF378 ; text-shadow: .005em .035em #24168E ;outline-style: double 2px #24168E;
+    
+}
+
+
+.box4 {width: 100%;}
+  
+.container4 {outline-style: inset; background-color:#AED6F1 ; font-family:'Merriweather', serif; height: auto; width: 100%;background-image: linear-gradient(to top, #ffd194, #70e1f5 );  padding: 2%;text-align: center;}
+
+
+ 
+
+
+h1 {text-align: center; color: #24168E;  text-shadow: .025em .025em #FCF378; outline-style: double; }
+
+ 
+h3 {text-align: center; color:#24168E; text-shadow: .025em .025em #FCF378; outline-style: double; }
+
+body { height: 100%;
+    background-color:#FCF378; margin-bottom: 0;
+}
+
+
+
+.container2 {
+    height: 100%;
+    width: 100%;
+    margin: 5% 0;
+    align-content: center; font-family: 'Merriweather', serif; background-color: azure; outline-style: double;text-align: center ; background-image: linear-gradient(to top, #ffd194, #70e1f5 ); padding 5%; 
+}
+
+.container3{
+    height: auto;
+    width: 100%;
+    margin: 5% 0;
+    align-content: center; font-family: 'Merriweather', serif; background-color: azure; outline-style: double;text-align: center; background-image: linear-gradient(to top, #70e1f5, #ffd194 ); padding: 1%;}
+
+
+figure { float: left;
+         width: 225px;
+         padding-bottom: 10px;
+         background-color: #EAEAEA; }
+figcaption { text-align: center;
+             font-style: italic;
+             font-family: Georgia, serif; }
+
+#gallery { position: relative; height: 700px; width: 100%; padding-bottom: 1em;}
+ 
+#gallery ul { width: 280px; list-style-type: none; }
+#gallery li { display: inline; float: left; padding: .5em; }
+#gallery img { border-style: none; outline-style: double; }
+#gallery a { text-decoration: none; color: #333; font-style: italic; }
+#gallery span { display: none; }
+
+#gallery a:hover span { display: block; position: absolute;
+         top: 2em; left: 20em; text-align: center; }
+
+
+
+
+
+.navbar { margin-right: 10%;
+        overflow: hidden;
+        background-color:#24168E ;
+        font-size: 125%;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; text-align: center;/*mar Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    text-align: center;
+    display: block;
+    color: #f2f2f2;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background:#FCF378  ;
+    color: black;}
+
+.main {  width: 100%; height: auto;
+    margin-top: 2em; margin-bottom: 5px;/*Add a top margin to avoid content overlay */}
+
+.footer {text-align: center; margin-top: 1em; height: 15px; width: 100%; bottom: 0; position: fixed;text-decoration: none;width: 100%; align-content: center; height: 3em; padding-top: 1em; background-color:#24168E;}
+
+/*  max-width: 850px;
+    min-width: 150px;
